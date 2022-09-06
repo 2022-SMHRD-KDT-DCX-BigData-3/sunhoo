@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+
+    
+    background-position: center;
+    background-image: url(./img/main4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+/*@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+    *{
+        font-family:'KOTRAHOPE' ;
+    }*/
+
+    @font-face {
+        font-family: 'GmarketSansMedium';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'GmarketSansMedium','Arial';
+      }
+
+a.nav-link{
+    color: white;
+}
+.btn.btn-secondary{
+    background: #84a295;
+    border: 1px solid  #84a295;
+    color: white;
+    
+}
+.btn.btn-secondary:hover{
+    background-color: #b7cdc2;
+    border: 1px solid #b7cdc2;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  a.nav-link:hover{
+    color: green;
+  }
